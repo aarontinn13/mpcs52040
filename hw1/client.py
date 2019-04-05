@@ -5,8 +5,10 @@ import pickle
 HOST = '127.0.0.1'
 PORT = int(sys.argv[-2])
 try:
+    # for objects
     MESSAGE = eval(sys.argv[-1])
 except NameError:
+    # for string
     MESSAGE = str((sys.argv[-1]))
 
 # open connection
