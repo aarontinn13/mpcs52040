@@ -24,9 +24,9 @@
 
         Listening...
 
-        Message from client: ping
+        Message from Client: ping
 
-        Response to Server: pong
+        Response to Client: pong
 
     python client.py 1234 "ping"
 
@@ -41,9 +41,9 @@
 
         Listening...
 
-        Message from client: [1, 2, 3]
+        Message from Client: [1, 2, 3]
 
-        Response to Server: [1, 2, 3]
+        Response to Client: [1, 2, 3]
 
 
     python client.py 1234 [1,2,3]
