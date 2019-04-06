@@ -9,11 +9,11 @@
 
     1.) Start the Server to Listen for connection
 
-        python server.py <PORT> <MESSAGE or OBJECT>
+        python server.py <PORT> <MESSAGE | NONE>
 
     2.) Start the Client to Connect
 
-        python client.py <PORT> <MESSAGE or OBJECT>
+        python client.py <PORT> <MESSAGE | NONE>
 
 
 
@@ -37,17 +37,17 @@
 
 -- Example passing a list object:
 
-    python server.py 1234 [1,2,3]
+    python server.py 1234
 
         Listening...
 
-        Message from Client: [1, 2, 3]
+        Message from Client: ["This", 'is', 'a', 'Message']
 
-        Response to Client: [1, 2, 3]
+        Response to Client: ["This", 'is', 'a', 'Response']
 
 
-    python client.py 1234 [1,2,3]
+    python client.py 1234
 
-        Message to Server: [1, 2, 3]
+        Message to Server: ["This", 'is', 'a', 'Message']
 
-        Response from Server:  [1, 2, 3]
+        Response from Server:  ["This", 'is', 'a', 'Response']
