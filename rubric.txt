@@ -1,0 +1,26 @@
+Points:
+    - Task 1 (Client able to connect to server):
+        Points Possible: 1
+        Points Obtained: 1
+
+    - Task 2 (Server able to receive message):
+        Points Possible: 1
+        Points Obtained: 1
+
+    - Task 3 (Server able to respond to message):
+        Points Possible: 1
+        Points Obtained: 0.75
+
+    - Task 4 (Method to serialize Python object):
+        Points Possible: 1
+        Points Obtained: 1
+
+    - Task 5 (Client/server able to exchange Python objects):
+        Points Possible: 1
+        Points Obtained: 1
+
+Total Points: 4.75 / 5
+
+Comments: >
+    Nice work! Minor deduction because the server can only accept one message, rather
+    than listening for new connections in a loop.
