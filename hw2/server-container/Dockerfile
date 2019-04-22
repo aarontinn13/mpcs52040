@@ -1,7 +1,7 @@
 # get the latest ubuntu base image
 FROM ubuntu:latest
 
-# Copy the current directory file 'server.py' into the container at /.
+# Copy the current directory file 'post_server.py' into the container at /.
 COPY server.py /.
 
 # get python3

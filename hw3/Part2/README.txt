@@ -1,0 +1,1 @@
+pub_server.py will print the history and simultaneously listen to post_client.py while outputting to pub_client.py
