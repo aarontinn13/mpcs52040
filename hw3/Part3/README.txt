@@ -28,3 +28,7 @@ Description:
     interactive_server.py   - server that receives all incoming messages from clients and prints them and stores them into messages.pickle
     interactive_client.py   - client that will also send and receive messages
     interactive_client2.py  - client that will also send and receive messages
+
+Comments:
+
+    Everything works fine.

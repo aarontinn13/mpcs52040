@@ -28,3 +28,6 @@ Description:
     post_client.py  - client that will send messages to the server and prints them
 
 
+Comments:
+
+    Everything works fine.

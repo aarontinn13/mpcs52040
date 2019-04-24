@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f201eb92-019c-4917-b4fd-f1b2b3626c6b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/hw3/Part3/interactive_client2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/ALL_messages.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/MPCS_messages.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/RANDOM_messages.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/mc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/mc_client2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/mc_client3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/Part4/mc_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/client1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/client2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/client1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/client2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw3/Part4/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part1/messages.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part1/messages.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part1/post_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part1/post_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part2/messages.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part2/messages.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part2/post_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part2/post_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part3/interactive_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part3/interactive_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part3/messages.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part3/messages.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3/Part3/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part3/interactive_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/Part1/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part1/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/Part2/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part2/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/Part3/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part3/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/Part4/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Part4/README.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,50 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client3.py">
+        <entry file="file://$PROJECT_DIR$/hw3/Part4/test.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -102,15 +48,11 @@
         <option value="$PROJECT_DIR$/hw3/post_server.py" />
         <option value="$PROJECT_DIR$/hw3/messages.pickle" />
         <option value="$PROJECT_DIR$/hw3/Part2/messages.pickle" />
-        <option value="$PROJECT_DIR$/hw3/Part2/pub_server.py" />
         <option value="$PROJECT_DIR$/hw3/Part2/pub_client.py" />
         <option value="$PROJECT_DIR$/hw3/Part2/readme.txt" />
-        <option value="$PROJECT_DIR$/hw3/Part2/README.txt" />
-        <option value="$PROJECT_DIR$/hw3/Part1/README.txt" />
         <option value="$PROJECT_DIR$/hw3/Part1/post_client.py" />
         <option value="$PROJECT_DIR$/hw3/Part3/server.py" />
         <option value="$PROJECT_DIR$/hw3/Part1/post_server.py" />
-        <option value="$PROJECT_DIR$/hw3/Part2/post_client.py" />
         <option value="$PROJECT_DIR$/hw3/server.py" />
         <option value="$PROJECT_DIR$/test/server.py" />
         <option value="$PROJECT_DIR$/test/client2.py" />
@@ -121,13 +63,20 @@
         <option value="$PROJECT_DIR$/hw3/Part3/interactive_server.py" />
         <option value="$PROJECT_DIR$/hw3/Part3/interactive_client.py" />
         <option value="$PROJECT_DIR$/hw3/Part3/interactive_client2.py" />
-        <option value="$PROJECT_DIR$/hw3/Part4/mc_server.py" />
         <option value="$PROJECT_DIR$/hw3/Part4/all_messages.pickle" />
         <option value="$PROJECT_DIR$/hw3/Part4/MPCS_messages.pickle" />
         <option value="$PROJECT_DIR$/hw3/Part4/ALL_messages.pickle" />
         <option value="$PROJECT_DIR$/hw3/Part4/mc_client.py" />
         <option value="$PROJECT_DIR$/hw3/Part4/mc_client2.py" />
         <option value="$PROJECT_DIR$/hw3/Part4/mc_client3.py" />
+        <option value="$PROJECT_DIR$/hw3/Part4/mc_server.py" />
+        <option value="$PROJECT_DIR$/hw3/Part2/post_client.py" />
+        <option value="$PROJECT_DIR$/hw3/Part2/pub_server.py" />
+        <option value="$PROJECT_DIR$/hw3/Part4/README.txt" />
+        <option value="$PROJECT_DIR$/hw3/Part3/README.txt" />
+        <option value="$PROJECT_DIR$/hw3/Part2/README.txt" />
+        <option value="$PROJECT_DIR$/hw3/Part1/README.txt" />
+        <option value="$PROJECT_DIR$/hw3/Part4/test.txt" />
       </list>
     </option>
   </component>
@@ -158,6 +107,18 @@
               <item name="mpcs52040" type="b2602c69:ProjectViewProjectNode" />
               <item name="mpcs52040" type="462c0819:PsiDirectoryNode" />
               <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="Part1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mpcs52040" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpcs52040" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3" type="462c0819:PsiDirectoryNode" />
+              <item name="Part2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mpcs52040" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mpcs52040" type="462c0819:PsiDirectoryNode" />
+              <item name="hw3" type="462c0819:PsiDirectoryNode" />
               <item name="Part3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -165,11 +126,6 @@
               <item name="mpcs52040" type="462c0819:PsiDirectoryNode" />
               <item name="hw3" type="462c0819:PsiDirectoryNode" />
               <item name="Part4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mpcs52040" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mpcs52040" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,29 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.interactive_server">
-    <configuration name="client1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mpcs52040" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/client1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.post_client">
     <configuration name="client2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mpcs52040" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="post_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mpcs52040" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,12 +236,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw3/Part1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw3/Part1/post_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="post_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mpcs52040" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw3/Part1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw3/Part1/post_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.post_client" />
+        <item itemvalue="Python.post_server" />
         <item itemvalue="Python.interactive_server" />
         <item itemvalue="Python.interactive_client" />
         <item itemvalue="Python.client2 (1)" />
-        <item itemvalue="Python.client1 (1)" />
-        <item itemvalue="Python.server (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -346,12 +302,12 @@
       <workItem from="1555889547609" duration="16826000" />
       <workItem from="1555955353456" duration="6718000" />
       <workItem from="1556077564348" duration="13314000" />
-      <workItem from="1556132107246" duration="5202000" />
+      <workItem from="1556132107246" duration="8337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67356000" />
+    <option name="totallyTimeSpent" value="70491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1869" height="1055" extended-state="6" />
@@ -377,7 +333,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Run" order="5" side_tool="true" weight="0.390565" />
+      <window_info anchor="right" id="Run" order="5" side_tool="true" visible="true" weight="0.18486013" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,10 +348,11 @@
     <SUITE FILE_PATH="coverage/mpcs52040$client2__1_.coverage" NAME="client2 (1) Coverage Results" MODIFIED="1556083847154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/mpcs52040$client1__1_.coverage" NAME="client1 (1) Coverage Results" MODIFIED="1556083844936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/mpcs52040$server.coverage" NAME="server Coverage Results" MODIFIED="1556081615203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3" />
+    <SUITE FILE_PATH="coverage/mpcs52040$post_client.coverage" NAME="post_client Coverage Results" MODIFIED="1556139683342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/Part1" />
     <SUITE FILE_PATH="coverage/mpcs52040$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1555892091804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3" />
     <SUITE FILE_PATH="coverage/mpcs52040$pub_client.coverage" NAME="pub_client Coverage Results" MODIFIED="1555896757871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/Part2" />
     <SUITE FILE_PATH="coverage/mpcs52040$client.coverage" NAME="client Coverage Results" MODIFIED="1555461523044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw2" />
-    <SUITE FILE_PATH="coverage/mpcs52040$post_server.coverage" NAME="post_server Coverage Results" MODIFIED="1555957944663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/Part1" />
+    <SUITE FILE_PATH="coverage/mpcs52040$post_server.coverage" NAME="post_server Coverage Results" MODIFIED="1556138158294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3/Part1" />
     <SUITE FILE_PATH="coverage/mpcs52040$client2.coverage" NAME="client2 Coverage Results" MODIFIED="1556081623154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3" />
   </component>
   <component name="editorHistoryManager">
@@ -424,27 +381,7 @@
     <entry file="file://$PROJECT_DIR$/hw3/post_server.py" />
     <entry file="file://$PROJECT_DIR$/hw3/messages.pickle" />
     <entry file="file://$PROJECT_DIR$/hw3/Part2/post_server.py" />
-    <entry file="file://$PROJECT_DIR$/hw3/Part1/messages.pickle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part1/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="116" selection-start-column="116" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part2/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="111" selection-start-column="111" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw3/Part2/messages.pickle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part3/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/hw1/client.py">
@@ -467,26 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part1/post_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part1/post_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw3/Part2/pub_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -499,26 +416,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw3/Part3/messages.pickle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part2/post_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-end-line="9" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part2/pub_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hw2/client1.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -536,16 +433,6 @@
           <caret line="41" column="17" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part3/interactive_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,42 +510,6 @@
     <entry file="file://$PROJECT_DIR$/hw3/Part4/ALL_messages.pickle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part4/MPCS_messages.pickle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part4/RANDOM_messages.pickle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/client1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -669,13 +520,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client3.py">
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rubric.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part2/post_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part3/interactive_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part2/pub_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/mc_client2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/MPCS_messages.pickle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/RANDOM_messages.pickle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part1/messages.pickle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part1/post_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part1/post_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part3/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part2/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part1/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw3/Part4/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>

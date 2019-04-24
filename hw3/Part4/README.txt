@@ -36,3 +36,9 @@ Description:
     mc_client.py           - client that will also send and receive messages in current channel (if ALL, then will receive from all channels)
     mc_client2.py          - client that will also send and receive messages in current channel (if ALL, then will receive from all channels)
     mc_client3.py          - client that will also send and receive messages in current channel (if ALL, then will receive from all channels)
+
+
+Comments:
+
+    Everything works fine.
+    Currently have 3 channel pickle files, you can add more channels however history will not be saved.

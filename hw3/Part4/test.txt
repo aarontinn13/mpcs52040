@@ -1,0 +1,8 @@
+To test if this multichannel was working properly, I set up various clients and connected them to the server each with
+different channels posting messages.
+
+subscribers to ALL:     received messages from everyone and posted only to ALL
+subscribers to RANDOM:  received messages from RANDOM and posted only to RANDOM
+subscribers to MPCS:    received messages from MPCS and posted only to MPCS
+
+Can also open each pickle file and see messages stored only for those subscribers.

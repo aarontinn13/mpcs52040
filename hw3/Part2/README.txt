@@ -31,3 +31,7 @@ Description:
     pub_server.py   - server that receives all incoming messages from post_client.py and prints them and stores them into messages.pickle
     post_client.py  - client that will send messages to the server and print at the same time
     pub_client.py   - client that will listen and print stuff from the server
+
+Comments:
+
+    Everything works fine.
