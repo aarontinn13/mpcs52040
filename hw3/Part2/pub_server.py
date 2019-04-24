@@ -7,7 +7,6 @@ HOST=sys.argv[1]
 PORT=int(sys.argv[2])
 PUB_PORT=int(sys.argv[3])
 
-print('Loading History...\n')
 # load history
 lists = []
 infile = open('messages.pickle', 'rb')
@@ -20,7 +19,6 @@ infile.close()
 
 for i in lists:
     print(i)
-print('\n...History Loaded')
 
 # open connection to writer
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as post:
