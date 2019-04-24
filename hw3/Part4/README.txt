@@ -20,10 +20,10 @@ How to Run:
 
 Example:
 
-    python interactive_server.py 127.0.0.1 7777 7778
-    python interactive_client.py 127.0.0.1 7777 7778 ALL Tyler
-    python interactive_client2.py 127.0.0.1 7777 7778 MPCS Kyle
-    python interactive_client3.py 127.0.0.1 7777 7778 RANDOM Aaron
+    python mc_server.py 127.0.0.1 7777 7778
+    python mc_client.py 127.0.0.1 7777 7778 ALL Tyler
+    python mc_client2.py 127.0.0.1 7777 7778 MPCS Kyle
+    python mc_client3.py 127.0.0.1 7777 7778 RANDOM Aaron
 
     ...start typing on all client terminals
 
