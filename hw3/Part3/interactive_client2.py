@@ -5,7 +5,6 @@ import zmq
 import time
 import threading
 
-
 HOST=sys.argv[1]
 PORT=int(sys.argv[2])
 PUB_PORT=int(sys.argv[3])

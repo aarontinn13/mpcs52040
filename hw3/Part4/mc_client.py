@@ -9,11 +9,13 @@ import threading
 HOST=sys.argv[1]
 PORT=int(sys.argv[2])
 PUB_PORT=int(sys.argv[3])
-USERNAME=sys.argv[4]
+CHANNEL=sys.argv[4]
+USERNAME=sys.argv[5]
 
+print('You are now in the {} Channel'.format(CHANNEL))
 # print the history
 lists = []
-infile = open('messages.pickle', 'rb')
+infile = open('{}_messages.pickle'.format(CHANNEL), 'rb')
 while True:
     try:
         lists.append(pickle.load(infile))
@@ -44,7 +46,9 @@ subscribe = context.socket(zmq.SUB)
 subscribe.connect("tcp://{}:{}".format(HOST, PUB_PORT))
 
 # set up the subscribe keyword
-subscribe.setsockopt_string(zmq.SUBSCRIBE, '')
+subscribe.setsockopt_string(zmq.SUBSCRIBE, '({})'.format(CHANNEL))
+if CHANNEL == 'ALL':
+    subscribe.setsockopt_string(zmq.SUBSCRIBE, '')
 
 # start listening
 t = threading.Thread(target=listen)
@@ -54,13 +58,10 @@ t.start()
 while True:
     # get the input from terminal
     input_message = sys.stdin.readline().strip('\n')
-    FULL_MESSAGE = '{}: {} ({})'.format(USERNAME, input_message, datetime.datetime.now())
+    FULL_MESSAGE = '({}) {}: {} ({})'.format(CHANNEL, USERNAME, input_message, datetime.datetime.now())
 
     # send the message to the server
     post.send_string(FULL_MESSAGE)
 
     #unclog the reply
     post.recv()
-
-
-

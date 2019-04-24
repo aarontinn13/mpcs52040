@@ -8,7 +8,7 @@ PORT=int(sys.argv[-1])
 # load history
 lists = []
 infile = open('messages.pickle', 'rb')
-while 1:
+while True:
     try:
         lists.append(pickle.load(infile))
     except EOFError:

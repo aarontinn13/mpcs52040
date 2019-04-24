@@ -7,7 +7,7 @@ HOST=sys.argv[1]
 PORT=int(sys.argv[2])
 USERNAME=sys.argv[3]
 MESSAGE=' '.join(sys.argv[4:])
-FULL_MESSAGE='{} {} > {}'.format(USERNAME, datetime.datetime.now(), MESSAGE)
+FULL_MESSAGE='{}: {} ({})'.format(USERNAME, MESSAGE, datetime.datetime.now())
 
 
 # open connection
