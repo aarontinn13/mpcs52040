@@ -1,0 +1,57 @@
+Part 2 distribute workload:
+
+    In order to ensure that all servers / threads are taking a portion of the search space and running concurrently,
+    you can view the activity in the terminals running the servers as the requests come in. Everytime a thread has been
+    launched and is running, you can view the 200 request launching in each of the server's terminals:
+
+    (127.0.0.1 - - [08/May/2019 18:45:48] "GET /passwordcracker HTTP/1.1" 200 -)
+
+    To further test this, I printed the thread that was launched and in each server would show the respective daemon
+    thread starting and stopped status in each server.
+
+
+    for example if I was running two threads concurrently, I would print results similar to...
+
+    daemon thread 0 running in server 127.0.0.1:5000
+    daemon thread 1 running in server 127.0.0.1:5001
+    daemon thread 2 running in server 127.0.0.1:5000
+    daemon thread 3 running in server 127.0.0.1:5001
+    daemon thread 4 running in server 127.0.0.1:5000
+    daemon thread 5 running in server 127.0.0.1:5001
+    daemon thread 6 running in server 127.0.0.1:5000
+    daemon thread 7 running in server 127.0.0.1:5001
+
+    ...and so on...
+
+Part 3 fault tolerance:
+
+    To test fault tolerance, I would kill a thread via ctrl+c.
+
+    upon killing a thread, a requests.exceptions.ConnectionError would appear, and during which I would need to remove
+    the thread that is assigned to that server and remove the port in the ports list so it may not be used anymore,
+    also I would need to return the result back to the queue of letter jobs so that it may be searched again by other
+    threads who are still alive.
+
+    After terminating a thread, the remaining threads would continue searching and return a result.
+
+Part 4 Performance:
+
+    The passwords I tested were "m", "mp", "mpc", "mpcs" and "mpcsx" each tested with 1 - 10 threads.
+
+    It's pretty obvious that increasing the number of threads increases the performance, it was kind've not a huge
+    performance increase for 1 or 2 character passwords due to context switching overhead, so it was probably more
+    efficient using 1 thread for small passwords, however for large passwords like 4 or 5 length, increasing the number
+    of threads has a better performance increase due to the larger search space and each thread searching each
+    search space and caching the results.
+
+    however I did not test past 6 characters as it took more than 30 minutes even for 10 threads.
+
+
+Part 5 Optimization:
+
+    In the server, I implemented a dictionary / hash table that would cache the hashed password and the guess as
+    the value.
+
+    To test if the cache was working, I submitted the first request to find "mpcs" (which took like 9 seconds with 2
+    threads). Immediately after receiving the result, I would resubmit that same job and it would return the same result
+    immediately with the message saying that the result came from the cache.
